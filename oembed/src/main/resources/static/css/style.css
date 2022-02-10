@@ -1,0 +1,46 @@
+body {
+    padding : 0px 150px 0px 150px;
+    margin : 0px;
+}
+
+#header {
+    background-color: #2daab7;
+    padding-top: 40px;
+    padding : 40px 20px 20px 20px;
+}
+
+#logo {
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#header > button {
+    float: right;
+    position: relative;
+    top: -31px;
+    right : 15px;
+}
+
+
+#header > input {
+    width: 99%;
+    height: 40px;
+  	border-radius: 3px 3px 3px 3px / 3px 3px 3px 3px;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 10px;
+}
+
+#content > table {
+    width: 100%;
+    border: groove;
+}
+
+tbody tr:nth-child(even)  { background-color: #d3d3d3; }
+
+img {
+    display: block;
+}

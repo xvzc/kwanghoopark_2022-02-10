@@ -1,0 +1,18 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  thymeleaf: # Thymeleaf
+    cache: false
+    mode: HTML
+    encoding: UTF-8
+    prefix: file:src/main/resources/templates/
+  resources: # Static resources
+    static-locations: file:src/main/resources/static/
+    cache:
+      period: 0
+  devtools:
+    livereload:
+      enabled: true
